@@ -1,0 +1,11 @@
+(-0.009287925696594394, 0, 90.83591331269349)
+Exception in thread InputDispatchThread:
+Traceback (most recent call last):
+    self.run()
+  File "/usr/local/lib/python2.7/dist-packages/triangula/input.py", line 189, in run
+    loop()
+  File "/usr/lib/python2.7/asyncore.py", line 216, in loop
+    poll_fun(timeout, map)
+  File "/usr/lib/python2.7/asyncore.py", line 145, in poll
+    r, w, e = select.select(r, w, e, timeout)
+error: (9, 'Bad file descriptor')

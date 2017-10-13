@@ -1,0 +1,6 @@
+servo_pin = "P8_19"
+duty_min = 3
+duty_max = 14.5
+duty_span = duty_max - duty_min
+duty = 100 -((X/180 *11.5 + 3
+duty = 100 - ((angle_f / 180) * duty_span + duty_min) 
